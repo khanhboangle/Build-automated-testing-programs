@@ -1,0 +1,142 @@
+{
+  "id": "04456e72-c9f4-46a7-959b-687ba7d4dd98",
+  "version": "2.0",
+  "name": "Automation Test",
+  "url": "https://demoqa.com/text-box",
+  "tests": [{
+    "id": "36bff71f-5f5e-4147-8df7-50ec8576d2a6",
+    "name": "Untitled",
+    "commands": [{
+      "id": "58511c90-460e-4e66-bbd4-696176318755",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/text-box",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc313d91-5c9b-4d95-a60e-82e4a2c5f18d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05ffd97a-4338-4459-8af9-81d8a98980a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//div[@id='userName-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38549171-410d-4e2f-9eb4-3254c96b2ace",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//div[@id='userName-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Lê Khánh Boăng"
+    }, {
+      "id": "00330ef5-3819-4847-a93d-cda61d209686",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["css=#userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='userEmail-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "khanhboangle@gmail.com"
+    }, {
+      "id": "dab1236c-6c8a-4bda-af80-2e41beda3e11",
+      "comment": "",
+      "command": "type",
+      "target": "id=currentAddress",
+      "targets": [
+        ["id=currentAddress", "id"],
+        ["css=#currentAddress", "css:finder"],
+        ["xpath=//textarea[@id='currentAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='currentAddress-wrapper']/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Man Thiện, Hiệp Phú, TP Thủ Đức, TP HCM"
+    }, {
+      "id": "668dc9cb-3ae2-4ae0-8621-d670e99e9f91",
+      "comment": "",
+      "command": "type",
+      "target": "id=permanentAddress",
+      "targets": [
+        ["id=permanentAddress", "id"],
+        ["css=#permanentAddress", "css:finder"],
+        ["xpath=//textarea[@id='permanentAddress']", "xpath:attributes"],
+        ["xpath=//div[@id='permanentAddress-wrapper']/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "Man Thiện, Hiệp Phú, TP Thủ Đức, TP HCM"
+    }, {
+      "id": "264516f7-dd14-45bc-95e8-78b1a6e3d9b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38bb75f7-2072-41af-bfc2-aafae2a0dcea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0bd4cbe-7738-451c-8f25-1349deed2c71",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9e876f6c-2f6c-4dab-b9c3-618d55c56cd2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["36bff71f-5f5e-4147-8df7-50ec8576d2a6"]
+  }],
+  "urls": ["https://demoqa.com/text-box"],
+  "plugins": []
+}
